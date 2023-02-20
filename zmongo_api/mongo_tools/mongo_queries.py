@@ -4,9 +4,8 @@ import pandas as pd
 
 def random_filter ():
     filter = {"founded_year": 2005}
-    projection = {"name": 1, 'founded_year': 1,"_id": 0}
 
-    variable = list(collection.find(filter, projection))
+    variable = list(collection.find(filter))
 
     my_dict = {'result': variable}
     return my_dict
