@@ -3,7 +3,7 @@ from sql_connection import engine
 import pandas as pd
 # import sys
 # sys.path.append('/.../configg/sql_connection.py')
-# from configg import sql_connection as esecuele
+import sql_connection as dfdfd
 
 def get_everything_():
     query = f"SELECT * FROM salaries LIMIT 10;"
